@@ -29,75 +29,75 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="glicemia_basal">{{ Lang::get('app.label.glicemia_basal') }}</label>
                                     {{ Form::text('glicemia_basal', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['glicemia_basal'] : Input::old('glicemia_basal'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="glicemia_basal_tecnica">{{ Lang::get('app.label.glicemia_basal_tecnica') }}</label>
                                     {{ Form::text('glicemia_basal_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['glicemia_basal_tecnica'] : Input::old('glicemia_basal_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="glicemia_post">{{ Lang::get('app.label.glicemia_post') }}</label>
                                     {{ Form::text('glicemia_post', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['glicemia_post'] : Input::old('glicemia_post'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="glicemia_post_tecnica">{{ Lang::get('app.label.glicemia_post_tecnica') }}</label>
                                     {{ Form::text('glicemia_post_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['glicemia_post_tecnica'] : Input::old('glicemia_post_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="trigliceridos">{{ Lang::get('app.label.trigliceridos') }}</label>
                                     {{ Form::text('trigliceridos', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['trigliceridos'] : Input::old('trigliceridos'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="trigliceridos_tecnica">{{ Lang::get('app.label.trigliceridos_tecnica') }}</label>
                                     {{ Form::text('trigliceridos_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['trigliceridos_tecnica'] : Input::old('trigliceridos_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="colesterol_total">{{ Lang::get('app.label.colesterol_total') }}</label>
                                     {{ Form::text('colesterol_total', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['colesterol_total'] : Input::old('colesterol_total'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="colesterol_total_tecnica">{{ Lang::get('app.label.colesterol_total_tecnica') }}</label>
                                     {{ Form::text('colesterol_total_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['colesterol_total_tecnica'] : Input::old('colesterol_total_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="colesterol_hdl">{{ Lang::get('app.label.colesterol_hdl') }}</label>
                                     {{ Form::text('colesterol_hdl', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['colesterol_hdl'] : Input::old('colesterol_hdl'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="colesterol_hdl_tecnica">{{ Lang::get('app.label.colesterol_hdl_tecnica') }}</label>
                                     {{ Form::text('colesterol_hdl_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['colesterol_hdl_tecnica'] : Input::old('colesterol_hdl_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="colesterol_ldl">{{ Lang::get('app.label.colesterol_ldl') }}</label>
                                     {{ Form::text('colesterol_ldl', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['colesterol_ldl'] : Input::old('colesterol_ldl'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="colesterol_ldl_tecnica">{{ Lang::get('app.label.colesterol_ldl_tecnica') }}</label>
                                     {{ Form::text('colesterol_ldl_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['colesterol_ldl_tecnica'] : Input::old('colesterol_ldl_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="acido_urico">{{ Lang::get('app.label.acido_urico') }}</label>
                                     {{ Form::text('acido_urico', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['acido_urico'] : Input::old('acido_urico'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="acido_urico_tecnica">{{ Lang::get('app.label.acido_urico_tecnica') }}</label>
                                     {{ Form::text('acido_urico_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['acido_urico_tecnica'] : Input::old('acido_urico_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="creatinina">{{ Lang::get('app.label.creatinina') }}</label>
                                     {{ Form::text('creatinina', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['creatinina'] : Input::old('creatinina'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="creatinina_tecnica">{{ Lang::get('app.label.creatinina_tecnica') }}</label>
                                     {{ Form::text('creatinina_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['creatinina_tecnica'] : Input::old('creatinina_tecnica'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="col-xs-12 col-sm-6 col-md-2">
                                     <label for="bun">{{ Lang::get('app.label.bun') }}</label>
                                     {{ Form::text('bun', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['bun'] : Input::old('bun'), array('class' => 'form-control')) }}
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-9">
+                                <div class="col-xs-12 col-sm-6 col-md-10">
                                     <label for="bun_tecnica">{{ Lang::get('app.label.bun_tecnica') }}</label>
                                     {{ Form::text('bun_tecnica', $examen_quimica_sanguinea ? $examen_quimica_sanguinea['bun_tecnica'] : Input::old('bun_tecnica'), array('class' => 'form-control')) }}
                                 </div>
