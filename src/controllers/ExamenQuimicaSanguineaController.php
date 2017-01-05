@@ -82,7 +82,7 @@ class ExamenQuimicaSanguineaController extends Controller {
         }
     }
 
-    public function historialExamenCoprologico()
+    public function historialExamenQuimicaSanguinea()
     {
         $historiales = $this->consulta->historiales(Input::get('id_paciente'), Input::get('fecha_i', null), Input::get('fecha_f', null));
 
@@ -97,7 +97,7 @@ class ExamenQuimicaSanguineaController extends Controller {
         return Response::json($examen_quimica_sanguinea);
     }
 
-    public function getHistorialExamenCoprologico()
+    public function getHistorialExamenQuimicaSanguinea()
     {
         $historial = $this->consulta->get(Input::get('id'));
         $datos = [
